@@ -1,4 +1,4 @@
-package main.java.com.ridebooking.module5;
+package com.ridebooking.module5;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -38,6 +38,15 @@ public class PaymentModule {
     // -----------------------------------------------------------------------
     //  Constructor
     // -----------------------------------------------------------------------
+    public PaymentModule(Scanner scanner) {
+        this.fareCalculator  = new FareCalculator();
+        this.surgeService    = new SurgePricingService();
+        this.repository      = new PaymentRepository();
+        this.paymentService  = new PaymentService(repository);
+        this.revenueService  = new RevenueService();
+        this.scanner         = scanner;
+    }
+
     public PaymentModule() {
         this.fareCalculator  = new FareCalculator();
         this.surgeService    = new SurgePricingService();

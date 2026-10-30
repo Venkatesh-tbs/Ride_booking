@@ -1,5 +1,4 @@
-package main.java.com.ridebooking.module2;
-// package com.ridebooking.module2;
+package com.ridebooking.module2;
 
 import java.util.ArrayList;
 import java.util.Comparator;

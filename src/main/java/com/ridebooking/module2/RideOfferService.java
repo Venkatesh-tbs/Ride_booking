@@ -1,6 +1,4 @@
-package main.java.com.ridebooking.module2;
-
-//package main.java.com.ridebooking.module2;
+package com.ridebooking.module2;
 
 import java.time.Duration;
 import java.time.Instant;

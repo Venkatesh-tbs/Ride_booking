@@ -244,6 +244,14 @@ public class DriverService {
         driver.addRating(rating);
     }
 
+    public List<Rider> getAllRiders() {
+        return new ArrayList<>(riders);
+    }
+
+    public List<Driver> getAllDrivers() {
+        return new ArrayList<>(drivers);
+    }
+
     // Display all registered riders
 
     public void displayAllRiders() {
